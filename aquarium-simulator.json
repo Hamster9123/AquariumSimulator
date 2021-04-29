@@ -1,0 +1,133 @@
+{
+	"Width": 11,
+	"Height": 20,
+	"ObjectDefaults": [
+		{
+			"Type": "Seaweed",
+			"EnergyMax": 10,
+			"EnergyIncome": 1
+		},
+		{
+			"Type": "HerbivorousFish",
+			"AgeMaturity": 2,
+			"AgeOld": 10,
+			"AgeDeath": 15,
+			"EnergyMax": 20,
+			"HungerLimit": 10,
+			"EnergyDecrease": 2,
+			"Metabolism": 0.9,
+			"VisionRange": 5,
+			"Speed": 5,
+			"PregnancyEnd": 1
+		},
+		{
+			"Type": "PredatoryFish",
+			"AgeMaturity": 3,
+			"AgeOld": 10,
+			"AgeDeath": 15,
+			"EnergyMax": 20,
+			"HungerLimit": 10,
+			"EnergyDecrease": 3,
+			"Metabolism": 0.7,
+			"VisionRange": 4,
+			"Speed": 2,
+			"PregnancyEnd": 2
+		}
+	],
+	"Objects": [
+		{
+			"Type": "Terrain",
+			"X": 9,
+			"Y": 14
+		},
+		{
+			"Type": "Terrain",
+			"X": 10,
+			"Y": 15
+		},
+		{
+			"Type": "Terrain",
+			"X": 3,
+			"Y": 5
+		},
+		{
+			"Type": "Seaweed",
+			"X": 1,
+			"Y": 1
+		},
+		{
+			"Type": "Seaweed",
+			"X": 6,
+			"Y": 3
+		},
+		{
+			"Type": "Seaweed",
+			"X": 8,
+			"Y": 19
+		},
+		{
+			"Type": "Seaweed",
+			"X": 6,
+			"Y": 15
+		},
+		{
+			"Type": "Seaweed",
+			"X": 6,
+			"Y": 14
+		},
+		{
+			"Type": "PredatoryFish",
+			"X": 10,
+			"Y": 19,
+			"Gender": "Male"
+		},
+		{
+			"Type": "PredatoryFish",
+			"X": 0,
+			"Y": 0,
+			"Gender": "Female"
+		},		
+		{
+			"Type": "HerbivorousFish",
+			"X": 3,
+			"Y": 3,
+			"Gender": "Male"
+		},		
+		{
+			"Type": "HerbivorousFish",
+			"X": 0,
+			"Y": 19,
+			"Gender": "Male"
+		},		
+		{
+			"Type": "HerbivorousFish",
+			"X": 5,
+			"Y": 16,
+			"Gender": "Female"
+		},
+		{
+			"Type": "HerbivorousFish",
+			"X": 6,
+			"Y": 16,
+			"Gender": "Female"
+		},
+		{
+			"Type": "HerbivorousFish",
+			"X": 3,
+			"Y": 7,
+			"Gender": "Female"
+		},
+		{
+			"Type": "HerbivorousFish",
+			"X": 6,
+			"Y": 16,
+			"Gender": "Male"
+		},
+		{
+			"Type": "HerbivorousFish",
+			"X": 3,
+			"Y": 7,
+			"Gender": "Female"
+		}
+	]	
+}
